@@ -1,0 +1,21 @@
+{
+  "name": "sum-project",
+  "version": "1.0.0",
+  "description": "Simple Node.js project with sum function",
+  "main": "src/sum.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "test:playwright": "playwright test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "@playwright/test": "^1.0.0"
+  }
+}
