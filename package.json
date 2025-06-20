@@ -8,6 +8,7 @@
     "node": ">=18 <19"
   },
   "scripts": {
+    "build": "build",
     "lint": "eslint .",
     "test": "jest",
     "test:playwright": "playwright test"
