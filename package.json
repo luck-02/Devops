@@ -8,7 +8,7 @@
     "node": ">=18 <19"
   },
   "scripts": {
-    "build": "build",
+    "build": "echo \"No build step needed\"",
     "lint": "eslint .",
     "test": "jest",
     "test:playwright": "playwright test"
